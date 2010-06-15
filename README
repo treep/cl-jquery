@@ -1,0 +1,10 @@
+
+CL-JQUERY
+
+  This library is for contributing JQUERY (JavaScript) framework and plugins via ASDF.
+
+  It is simple to use it in CL applications:
+
+    cl-jquery:*jquery.min.js* -- path to the `jquery.min.js' script.
+
+    cl-jquery:*jquery.console.js* -- path to the `jquery.console.js' script.
