@@ -5,6 +5,12 @@ CL-JQUERY
 
   It is simple to use it in CL applications:
 
-    cl-jquery:*jquery.min.js* -- path to the `jquery.min.js' script.
+    cl-jquery:*jquery.js* -- path to the `jquery.js' script.
+
+    cl-jquery:*jquery.form.js* -- path to the `jquery.form.js' script.
+
+    cl-jquery:*jquery.json.js* -- path to the `jquery.json.js' script.
+
+    cl-jquery:*jquery.ui.js* -- path to the `jquery.ui.js' script.
 
     cl-jquery:*jquery.console.js* -- path to the `jquery.console.js' script.
