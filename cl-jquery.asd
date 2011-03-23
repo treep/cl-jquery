@@ -1,6 +1,7 @@
 
 (defsystem cl-jquery
   :description "JQuery framework and plugins distribution for CL."
+  :licence     "Public domain / 0-clause MIT"
   :version     "2011-23-03"
   :serial      t
   :components
