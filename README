@@ -1,16 +1,69 @@
 
 CL-JQUERY
 
-  This library is for contributing JQUERY (JavaScript) framework and plugins via ASDF.
+  This is a library for contributing JQUERY (JavaScript) framework and plugins
+via ASDF.
 
-  It is simple to use it in CL applications:
+  Current release (2011-23-03) include:
 
-    cl-jquery:*jquery.js* -- path to the `jquery.js' script.
+    * jQuery, version 1.5.1
 
-    cl-jquery:*jquery.form.js* -- path to the `jquery.form.js' script.
+    * jQuery Form plugin, version 2.67
 
-    cl-jquery:*jquery.json.js* -- path to the `jquery.json.js' script.
+    * jQuery UI plugin, version 1.8.11
 
-    cl-jquery:*jquery.ui.js* -- path to the `jquery.ui.js' script.
+    * jQuery JSON plugin, version 2.2
 
-    cl-jquery:*jquery.console.js* -- path to the `jquery.console.js' script.
+    * JQuery Console plugin, version 1.0
+
+USAGE
+
+  JQUERY package define absolute patnames to the JS scripts in variables and
+functions for building relative pathnames to this scripts.
+
+  After you load this library with ASDF, it is simple to use it in CL
+applications:
+
+    jquery:*jquery.js*
+
+      Absolute path to the `jquery.js' script.
+
+    jquery:*jquery.form.js*
+
+      Absolute path to the `jquery.form.js' script.
+
+    jquery:*jquery.json.js*
+
+      Absolute path to the `jquery.json.js' script.
+
+    jquery:*jquery.ui.js*
+
+      Absolute path to the `jquery.ui.js' script.
+
+    jquery:*jquery.console.js*
+
+      Absolute path to the `jquery.console.js' script.
+
+    (jquery:relative base path)
+
+      Relative path (a string) from BASE (a pathname) to PATH (a pathname).
+
+    (jquery:jquery.js base)
+
+      Relative path (a string) from BASE (a pathname) to the `jquery.js' script.
+
+    (jquery:jquery.form.js base)
+
+      Relative path (a string) from BASE (a pathname) to the `jquery.form.js' script.
+
+    (jquery:jquery.json.js base)
+
+      Relative path (a string) from BASE (a pathname) to the `jquery.json.js' script.
+
+    (jquery:jquery.ui.js base)
+
+      Relative path (a string) from BASE (a pathname) to the `jquery.ui.js' script.
+
+    (jquery:jquery.console.js base)
+
+      Relative path (a string) from BASE (a pathname) to the `jquery.console.js' script.
